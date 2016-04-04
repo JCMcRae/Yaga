@@ -1,0 +1,103 @@
+@CHARSET "ISO-8859-1";
+
+@
+type-face {
+	font-family: Papyrus;
+	src: url('fonts/PAPYRUS.ttf');
+}
+
+@
+type-face {
+	font-family: Gill Sans MT Bold;
+	src: url('fonts/GILB____.ttf');
+}
+
+.body {
+	background-color: black;
+	font-family: Gill Sans MT Bold;
+	color: white;
+	margin: 0;
+	height: 100%;
+	padding-botom: 30px;
+}
+
+#buttonBar {
+	border-bottom: 1px solid white;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centerText {
+	color: white;
+	text-align: center justify;
+}
+
+.footerText {
+	text-align: center;
+}
+
+#footer /* A fixed or static footer is essential for every page.*/ {
+	position: static;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	width: 100%;
+	background-color: transparent;
+	border-top: 1px solid white;
+}
+
+#socialMediaBar {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: 75px;
+	width: 100%;
+	background-color: transparent;
+}
+
+#mainImage {
+	display: block;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 650px;
+}
+
+#picture {
+	display: block;
+	margin-top: 25px;
+}
+
+#aboutText {
+	text-align: center justify;
+	margin-top: 25px;
+	font-size: 30px;
+}
+
+.thumbnail {
+	width: 150px;
+}
+
+.contactText {
+	margin-top: 25px;
+	text-align: center;
+}
+
+.quote {
+	text-align: center justify;
+}
+
+.menu {
+	color: white;
+}
+
+.activeButton {
+	color: red;
+}
